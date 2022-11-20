@@ -23,7 +23,7 @@ public class EMICalculatorPage {
     @FindBy(id = PACKAGE_NAME + ":id/etFee")
     AndroidElement txtProcessingFee;
     @FindBy(id = PACKAGE_NAME + ":id/btnCalculate")
-    AndroidElement btnCalculate;
+    public AndroidElement btnCalculate;
     @FindBy(id = PACKAGE_NAME + ":id/btnReset")
     public AndroidElement btnReset;
 

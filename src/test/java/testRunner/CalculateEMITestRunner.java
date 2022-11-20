@@ -18,7 +18,7 @@ public class CalculateEMITestRunner extends Setup {
 
     }
 
-    @Test(dataProvider = "data-provider", dataProviderClass = Dataset.class)
+    @Test(priority = 1,description = "Verifying the the EMI Calculation is Okay According to DATASET",dataProvider = "data-provider", dataProviderClass = Dataset.class)
     public void doCalculateEMI(int loanAmount, double rInterest, int period, double pFee, int mEMI, int tInterest, int tpFee, int tPayment) throws InterruptedException {
 
         emiCalculatorPage = new EMICalculatorPage(driver);

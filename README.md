@@ -1,6 +1,6 @@
 # EMI Calculator App Automation Selenium Appium
 
-## An [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by testing with varities of datasets and whether it gives correct results with correct data.Appium is utilized on an emulated device powered by Android Studio.
+### An [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by testing with varities of datasets and whether it gives correct results with correct data.Appium is utilized on an emulated device powered by Android Studio.
 
 Here the following tasks are done:
 - An EMI Calculator app extracted from [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by extracting its apk.
@@ -23,6 +23,22 @@ Here the following tasks are done:
 - Configure **ANDROID_HOME**, **JAVA_HOME** and **GRADLE_HOME**
 - Stable internet connection
 
+### Dependencies
+```   
+implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+```
+```   
+testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+```
+```   
+// https://mvnrepository.com/artifact/io.appium/java-client
+    implementation group: 'io.appium', name: 'java-client', version: '7.6.0'
+```
+```   
+ // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.18.1'
+```
+
 ## Project Run
 
 ### Appium
@@ -31,7 +47,6 @@ Here the following tasks are done:
 - Open cmd and give ```adb devices``` command to get uuid.
 - Open Appium and start server. Then open inspector tool.
 - In the **JSON Representation** section, paste the following desired capabilities after adding your uuid and version:
-- 
 ```
   "deviceName": "My Device",
   "platformName": "Android",
@@ -82,6 +97,7 @@ allure serve allure-results
 
 
 ## Watch the Project video and test run:<br><br>
+
 
 Uploading EMI Calculator Output Video.mp4…
 

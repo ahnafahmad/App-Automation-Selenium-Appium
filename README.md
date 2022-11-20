@@ -31,7 +31,7 @@ Here the following tasks are done:
 - Open cmd and give ```adb devices``` command to get uuid.
 - Open Appium and start server. Then open inspector tool.
 - In the **JSON Representation** section, paste the following desired capabilities after adding your uuid and version:
-
+- 
 ```
   "deviceName": "My Device",
   "platformName": "Android",
@@ -47,14 +47,13 @@ Here the following tasks are done:
 
 ## Screenshot of the overall project run in appium**
 
- ![EMI-9](https://user-images.githubusercontent.com/58990500/202900631-07fc758d-70c8-443d-aef5-03fa11e2b09b.PNG)<br.<br>
+ ![EMI-9](https://user-images.githubusercontent.com/58990500/202900631-07fc758d-70c8-443d-aef5-03fa11e2b09b.PNG)<br><br>
 
 - After automation to view allure report , give the following commands:
-
  ```
 allure generate allure-results --clean -o allure-report
 allure serve allure-results
- ```<br><br>
+ ```
  
 ## Here is the Allure report overview:**
 

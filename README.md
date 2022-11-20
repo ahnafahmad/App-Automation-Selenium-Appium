@@ -99,6 +99,7 @@ allure serve allure-results
 ## Watch the Project video and test run:<br><br>
 
 
-Uploading EMI Calculator Output Video.mp4…
+https://user-images.githubusercontent.com/58990500/202903874-76f9b9f9-e1b5-429d-90d8-a016f5674189.mp4
+
 
 
